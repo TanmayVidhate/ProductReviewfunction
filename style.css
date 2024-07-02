@@ -18,3 +18,18 @@
 body {
     background-color: #FFFBF5;
 }
+
+.product-image-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.prod-img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
